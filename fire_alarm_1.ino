@@ -13,7 +13,7 @@ pinMode(8,OUTPUT);
 void loop() 
 {
  
-flamesensvalue=analogRead(A2); // reads analog data from flame sensor
+int flamesensvalue=analogRead(A2); // reads analog data from flame sensor
 if (flamesensvalue<=threshold) { // compares reading from flame sensor with the threshold value
 digitalWrite(13,HIGH); //turns on led and buzzer
 delay (1000);
