@@ -19,6 +19,7 @@ delay(500); //stops program for 0.5 second
 else
 {
 digitalWrite(8,LOW); //turns led off led and buzzer
+ digitalWrite(13,LOW);
 noTone(8);
 }
 }
