@@ -16,7 +16,7 @@ void loop()
 int flamesensvalue=analogRead(A2); // reads analog data from flame sensor
 if (flamesensvalue<=threshold) { // compares reading from flame sensor with the threshold value
 digitalWrite(13,HIGH); //turns on led and buzzer
-delay (1000);
+//delay (1000);
 //digitalWrite(13,LOW);
 //delay (1000);
 tone(8,2000,2500);
